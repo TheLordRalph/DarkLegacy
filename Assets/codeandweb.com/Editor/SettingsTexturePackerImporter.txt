@@ -1,0 +1,845 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/Sprites/Body/Ahoul/Ahoul.tpsheet
+- Assets/Resources/Sprites/Body/AhoulGreen/AhoulGreen.tpsheet
+- Assets/Resources/Sprites/Body/AhoulTan/AhoulTan.tpsheet
+- Assets/Resources/Sprites/Body/BaseHuman/HumanMale.tpsheet
+- Assets/Resources/Sprites/Body/Elf/Elf.tpsheet
+- Assets/Resources/Sprites/Body/Enano/Enano.tpsheet
+- Assets/Resources/Sprites/Body/Sharman/Sharman.tpsheet
+- Assets/Resources/Sprites/Body/Skeleton/Skeleton.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonMage1/SkeletonMage1.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonMage2/SkeletonMage2.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonMage3/SkeletonMage3.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior1/SkeletonWarrior1.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior10/SkeletonWarrior10.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior2/SkeletonWarrior2.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior3/SkeletonWarrior3.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior4/SkeletonWarrior4.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior5/SkeletonWarrior5.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior6/SkeletonWarrior6.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.tpsheet
+- Assets/Resources/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.tpsheet
+- Assets/Resources/Sprites/Weapons/Arcos/Arco01.tpsheet
+- Assets/Resources/Sprites/Weapons/Arcos/Arco02.tpsheet
+- Assets/Resources/Sprites/Weapons/Arcos/Arco03.tpsheet
+- Assets/Resources/Sprites/Weapons/Arcos/Arco04.tpsheet
+- Assets/Resources/Sprites/Weapons/Arcos/Arco05.tpsheet
+- Assets/Sprites/Body/Ahoul/Ahoul.tpsheet
+- Assets/Sprites/Body/AhoulGreen/AhoulGreen.tpsheet
+- Assets/Sprites/Body/AhoulTan/AhoulTan.tpsheet
+- Assets/Sprites/Body/Elf/Elf.tpsheet
+- Assets/Sprites/Body/Enano/Enano.tpsheet
+- Assets/Sprites/Body/Human/Human.tpsheet
+- Assets/Sprites/Body/Sharman/Sharman.tpsheet
+- Assets/Sprites/Body/Skeleton/Skeleton.tpsheet
+- Assets/Sprites/Body/SkeletonMage1/SkeletonMage1.tpsheet
+- Assets/Sprites/Body/SkeletonMage2/SkeletonMage2.tpsheet
+- Assets/Sprites/Body/SkeletonMage3/SkeletonMage3.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior1/SkeletonWarrior1.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior10/SkeletonWarrior10.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior2/SkeletonWarrior2.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior3/SkeletonWarrior3.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior4/SkeletonWarrior4.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior5/SkeletonWarrior5.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior6/SkeletonWarrior6.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.tpsheet
+- Assets/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho01.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho04.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho08_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho09_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_0.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho8_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho9_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna01.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna02.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna03.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna04.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna05.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna06.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna07.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna08.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna09.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna10.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna11.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna12.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna13.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna14.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna15.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna16.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota01.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota02.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota03.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota04.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota05.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota06.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota07.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota08.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota09.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota10.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota11.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota12.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota13.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota14.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota15.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza01.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza02.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza03.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza04.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza05.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza06.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza07.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza08.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza09.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza10.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza11.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza12.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza13.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza14.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza15.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza16.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza17.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza18.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza19.tpsheet
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza20.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante01.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante02.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante03.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante04.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante05.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante06.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante07.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante08.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante09.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante10.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante11.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante12.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante13.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante14.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera01.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera02.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera03.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera04.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera05.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera06.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera07.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera08.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera09.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera10.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera11.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera12.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera13.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera14.tpsheet
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera15.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho01.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho02.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho03.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho04.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho05.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho06.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho07.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho08.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho09.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho10.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho11.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho12.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho13.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho14.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho15.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho16.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho17.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho18.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho19.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho20.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho21.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho22.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho23.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho24.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho25.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho26.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho27.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho28.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho29.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho30.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho31.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho32.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna01.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna02.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna03.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna04.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna05.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna06.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna07.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna08.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna09.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna10.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna11.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna12.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna13.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna14.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna15.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna16.tpsheet
+- Assets/Sprites/Hair/HairElf.tpsheet
+- Assets/Sprites/Hair/HairEnano.tpsheet
+- Assets/Sprites/Hair/HairHumano.tpsheet
+- Assets/Sprites/Hair/HairSharman.tpsheet
+- Assets/Sprites/Weapons/Arcos/Arco01.tpsheet
+- Assets/Sprites/Weapons/Arcos/Arco02.tpsheet
+- Assets/Sprites/Weapons/Arcos/Arco03.tpsheet
+- Assets/Sprites/Weapons/Arcos/Arco04.tpsheet
+- Assets/Sprites/Weapons/Arcos/Arco05.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera01.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera02.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera03.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera04.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera05.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera06.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera07.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera08.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera10.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera11.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera12.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera13.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera14.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera15.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera16.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera17.tpsheet
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera9.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada01.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada02.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada03.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada04.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada05.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada06.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada07.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada08.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada09.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada10.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada11.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada12.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada13.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada14.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada15.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada16.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada17.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada18.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada19.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada20.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada21.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada22.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada23.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada24.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada25.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada26.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada27.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada28.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada29.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada30.tpsheet
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada31.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo01.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo02.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo03.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo04.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo05.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo06.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo07.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo08.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo09.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo10.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo11.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo12.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo13.tpsheet
+- Assets/Sprites/Weapons/Escudos/Escudo14.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica01.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica02.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica03.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica04.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica05.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica06.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica07.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica08.tpsheet
+- Assets/Sprites/Weapons/Misticas/Mistica09.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/Sprites/Body/Ahoul/Ahoul.png
+- Assets/Resources/Sprites/Body/AhoulGreen/AhoulGreen.png
+- Assets/Resources/Sprites/Body/AhoulTan/AhoulTan.png
+- Assets/Resources/Sprites/Body/BaseHuman/HumanMale.png
+- Assets/Resources/Sprites/Body/Elf/Elf.png
+- Assets/Resources/Sprites/Body/Enano/Enano.png
+- Assets/Resources/Sprites/Body/Sharman/Sharman.png
+- Assets/Resources/Sprites/Body/Skeleton/Skeleton.png
+- Assets/Resources/Sprites/Body/SkeletonMage1/SkeletonMage1.png
+- Assets/Resources/Sprites/Body/SkeletonMage2/SkeletonMage2.png
+- Assets/Resources/Sprites/Body/SkeletonMage3/SkeletonMage3.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior1/SkeletonWarrior1.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior10/SkeletonWarrior10.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior2/SkeletonWarrior2.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior3/SkeletonWarrior3.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior4/SkeletonWarrior4.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior5/SkeletonWarrior5.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior6/SkeletonWarrior6.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.png
+- Assets/Resources/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.png
+- Assets/Resources/Sprites/Weapons/Arcos/Arco01.png
+- Assets/Resources/Sprites/Weapons/Arcos/Arco02.png
+- Assets/Resources/Sprites/Weapons/Arcos/Arco03.png
+- Assets/Resources/Sprites/Weapons/Arcos/Arco04.png
+- Assets/Resources/Sprites/Weapons/Arcos/Arco05.png
+- Assets/Sprites/Body/Ahoul/Ahoul.png
+- Assets/Sprites/Body/AhoulGreen/AhoulGreen.png
+- Assets/Sprites/Body/AhoulTan/AhoulTan.png
+- Assets/Sprites/Body/Elf/Elf.png
+- Assets/Sprites/Body/Enano/Enano.png
+- Assets/Sprites/Body/Human/Human.png
+- Assets/Sprites/Body/Sharman/Sharman.png
+- Assets/Sprites/Body/Skeleton/Skeleton.png
+- Assets/Sprites/Body/SkeletonMage1/SkeletonMage1.png
+- Assets/Sprites/Body/SkeletonMage2/SkeletonMage2.png
+- Assets/Sprites/Body/SkeletonMage3/SkeletonMage3.png
+- Assets/Sprites/Body/SkeletonWarrior1/SkeletonWarrior1.png
+- Assets/Sprites/Body/SkeletonWarrior10/SkeletonWarrior10.png
+- Assets/Sprites/Body/SkeletonWarrior2/SkeletonWarrior2.png
+- Assets/Sprites/Body/SkeletonWarrior3/SkeletonWarrior3.png
+- Assets/Sprites/Body/SkeletonWarrior4/SkeletonWarrior4.png
+- Assets/Sprites/Body/SkeletonWarrior5/SkeletonWarrior5.png
+- Assets/Sprites/Body/SkeletonWarrior6/SkeletonWarrior6.png
+- Assets/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.png
+- Assets/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.png
+- Assets/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho01.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho04.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho08_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho09_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_0.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho8_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho9_1.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna01.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna02.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna03.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna04.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna05.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna06.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna07.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna08.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna09.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna10.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna11.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna12.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna13.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna14.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna15.png
+- Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna16.png
+- Assets/Sprites/Equipamiento/Botas/Bota01.png
+- Assets/Sprites/Equipamiento/Botas/Bota02.png
+- Assets/Sprites/Equipamiento/Botas/Bota03.png
+- Assets/Sprites/Equipamiento/Botas/Bota04.png
+- Assets/Sprites/Equipamiento/Botas/Bota05.png
+- Assets/Sprites/Equipamiento/Botas/Bota06.png
+- Assets/Sprites/Equipamiento/Botas/Bota07.png
+- Assets/Sprites/Equipamiento/Botas/Bota08.png
+- Assets/Sprites/Equipamiento/Botas/Bota09.png
+- Assets/Sprites/Equipamiento/Botas/Bota10.png
+- Assets/Sprites/Equipamiento/Botas/Bota11.png
+- Assets/Sprites/Equipamiento/Botas/Bota12.png
+- Assets/Sprites/Equipamiento/Botas/Bota13.png
+- Assets/Sprites/Equipamiento/Botas/Bota14.png
+- Assets/Sprites/Equipamiento/Botas/Bota15.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza01.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza02.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza03.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza04.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza05.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza06.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza07.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza08.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza09.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza10.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza11.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza12.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza13.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza14.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza15.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza16.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza17.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza18.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza19.png
+- Assets/Sprites/Equipamiento/Cabeza/Cabeza20.png
+- Assets/Sprites/Equipamiento/Guantes/Guante01.png
+- Assets/Sprites/Equipamiento/Guantes/Guante02.png
+- Assets/Sprites/Equipamiento/Guantes/Guante03.png
+- Assets/Sprites/Equipamiento/Guantes/Guante04.png
+- Assets/Sprites/Equipamiento/Guantes/Guante05.png
+- Assets/Sprites/Equipamiento/Guantes/Guante06.png
+- Assets/Sprites/Equipamiento/Guantes/Guante07.png
+- Assets/Sprites/Equipamiento/Guantes/Guante08.png
+- Assets/Sprites/Equipamiento/Guantes/Guante09.png
+- Assets/Sprites/Equipamiento/Guantes/Guante10.png
+- Assets/Sprites/Equipamiento/Guantes/Guante11.png
+- Assets/Sprites/Equipamiento/Guantes/Guante12.png
+- Assets/Sprites/Equipamiento/Guantes/Guante13.png
+- Assets/Sprites/Equipamiento/Guantes/Guante14.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera01.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera02.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera03.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera04.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera05.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera06.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera07.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera08.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera09.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera10.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera11.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera12.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera13.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera14.png
+- Assets/Sprites/Equipamiento/Hombreras/Hombrera15.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho01.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho02.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho03.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho04.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho05.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho06.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho07.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho08.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho09.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho10.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho11.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho12.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho13.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho14.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho15.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho16.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho17.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho18.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho19.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho20.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho21.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho22.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho23.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho24.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho25.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho26.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho27.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho28.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho29.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho30.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho31.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho32.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna01.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna02.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna03.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna04.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna05.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna06.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna07.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna08.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna09.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna10.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna11.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna12.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna13.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna14.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna15.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna16.png
+- Assets/Sprites/Hair/HairElf.png
+- Assets/Sprites/Hair/HairEnano.png
+- Assets/Sprites/Hair/HairHumano.png
+- Assets/Sprites/Hair/HairSharman.png
+- Assets/Sprites/Weapons/Arcos/Arco01.png
+- Assets/Sprites/Weapons/Arcos/Arco02.png
+- Assets/Sprites/Weapons/Arcos/Arco03.png
+- Assets/Sprites/Weapons/Arcos/Arco04.png
+- Assets/Sprites/Weapons/Arcos/Arco05.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera01.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera02.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera03.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera04.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera05.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera06.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera07.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera08.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera10.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera11.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera12.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera13.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera14.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera15.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera16.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera17.png
+- Assets/Sprites/Weapons/ArmasLigueras/ArmaLiguera9.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada01.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada02.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada03.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada04.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada05.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada06.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada07.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada08.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada09.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada10.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada11.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada12.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada13.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada14.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada15.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada16.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada17.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada18.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada19.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada20.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada21.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada22.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada23.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada24.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada25.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada26.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada27.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada28.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada29.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada30.png
+- Assets/Sprites/Weapons/ArmasPesadas/ArmaPesada31.png
+- Assets/Sprites/Weapons/Escudos/Escudo01.png
+- Assets/Sprites/Weapons/Escudos/Escudo02.png
+- Assets/Sprites/Weapons/Escudos/Escudo03.png
+- Assets/Sprites/Weapons/Escudos/Escudo04.png
+- Assets/Sprites/Weapons/Escudos/Escudo05.png
+- Assets/Sprites/Weapons/Escudos/Escudo06.png
+- Assets/Sprites/Weapons/Escudos/Escudo07.png
+- Assets/Sprites/Weapons/Escudos/Escudo08.png
+- Assets/Sprites/Weapons/Escudos/Escudo09.png
+- Assets/Sprites/Weapons/Escudos/Escudo10.png
+- Assets/Sprites/Weapons/Escudos/Escudo11.png
+- Assets/Sprites/Weapons/Escudos/Escudo12.png
+- Assets/Sprites/Weapons/Escudos/Escudo13.png
+- Assets/Sprites/Weapons/Escudos/Escudo14.png
+- Assets/Sprites/Weapons/Misticas/Mistica01.png
+- Assets/Sprites/Weapons/Misticas/Mistica02.png
+- Assets/Sprites/Weapons/Misticas/Mistica03.png
+- Assets/Sprites/Weapons/Misticas/Mistica04.png
+- Assets/Sprites/Weapons/Misticas/Mistica05.png
+- Assets/Sprites/Weapons/Misticas/Mistica06.png
+- Assets/Sprites/Weapons/Misticas/Mistica07.png
+- Assets/Sprites/Weapons/Misticas/Mistica08.png
+- Assets/Sprites/Weapons/Misticas/Mistica09.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0
