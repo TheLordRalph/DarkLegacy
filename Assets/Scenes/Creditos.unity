@@ -359,104 +359,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &480583101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 480583102}
-  - component: {fileID: 480583104}
-  - component: {fileID: 480583103}
-  m_Layer: 5
-  m_Name: Nombres
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &480583102
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480583101}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2046046320}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000038146056, y: -338.00024}
-  m_SizeDelta: {x: 670, y: 8997.595}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &480583103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480583101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\r\nRa\xFAl Moreta
-    y Iv\xE1n Ant\xF3n\r\n\r\n\r\n\n\n\n\n\nUnity\r\n\r\n\r\n\n\r\n\nIv\xE1n Ant\xF3n
-    y Ra\xFAl Moreta\r\n\r\n\r\n\n\n\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\n\r\n\r\n\n\r\n\n\n\nIv\xE1n
-    Ant\xF3n y Ra\xFAl Moreta\r\n\r\n\r\n\n\n\n\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\r\n\r\n\r\n\r\n\n\r\n\n\n\r\n\n\n\nIv\xE1n
-    Ant\xF3n y Ra\xFAl Moreta\r\n\r\n\r\n\n\n\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\n\r\n\n\nRa\xFAl
-    Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\r\n\n\r\n\n\n\nRa\xFAl Moreta\r\n\r\n\r\n\n\r\n\n\n\nIv\xE1n
-    Ant\xF3n\r\n\r\n\r\n\n\r\n\n\n\nRa\xFAl Moreta\r\n\r\n\r\n\r\n\r\n\n\r\n\r\n\n\n\n\r\nRa\xFAl
-    Moreta\r\n\r\n\r\n\n\r\n\n\nClint Bellanger\r\n\r\n\r\n\r\n\n\nClint Bellanger\r\nZonked\r\n\r\n\n\r\n\n\n\nClint
-    Bellanger\r\nBlarumyrran\r\nCrowline\r\nJustin Nichol\r\nLamoot\r\nHolly Daniel\r\nAlexandr
-    Zhelanov\r\nHaelDB\r\nMatt Merkulov\r\nTelaron\r\nRemaxim\r\nBrandon Morris\r\nJustin
-    Nichol\r\nJohndh\r\nStephen Challener\r\nMumu\r\nArtisticdude\r\nTiZiana\r\nScrittl\r\nZonked\r\n\r\n\n\r\n\n\n\n\n\nClint
-    Bellanger\r\nBlarumyrran\r\nCrowline\r\nJustin Nichol\r\nLamoot\r\nHolly Daniel\r\nAlexandr
-    Zhelanov\r\nHaelDB\r\nMatt Merkulov\r\nTelaron\r\nRemaxim\r\nBrandon Morris\r\nJustin
-    Nichol\r\nJohndh\r\nStephen Challener\r\nMumu\r\nArtisticdude\r\nTiZiana\r\nScrittl\r\nZonked\r\n\r\n\r\n\r\n\n\n\n\n\n\n\n\n\nIv\xE1n
-    Ant\xF3n\r\n\r\n\r\n\n\n\n\r\nClint Bellanger\r\n\r\n\n\r\n\n\nIv\xE1n Ant\xF3n\r\n\r\n\n\r\n\n\nHaelDB\r\nBrandon
-    Morris\r\nRemaxim\r\n\r\n\n\r\n\n\n\nBrandon Morris\r\nRemaxim\r\n\r\n\r\n\r\n\n\r\n\n\r\n\n\n\n\n\nRa\xFAl
-    Moreta\r\n\r\n\r\n\n\r\n\n\nSKYZ0R\r\n\r\n\n\r\n\n\nSKYZ0R\r\n\r\n\n\r\n\n\nRa\xFAl
-    Moreta\r\n\r\n\n\r\n\n\nSKYZ0R\r\n\r\n\r\n\r\n\n\r\n\n\r\n\n\n\n\nRa\xFAl Moreta\r\n\r\n\r\n\n\n\n\r\nSKYZ0R\r\n\r\n\n\r\n\n\nSKYZ0R\r\n\r\n\n\r\n\n\nSKYZ0R\r\n\r\n\r\n\r\n\n\r\n\n\n\n\n\n\r\nIv\xE1n
-    Ant\xF3n\r\n\r\n\n\n\n\nIv\xE1n Ant\xF3n\r\n\r\n\n\n\n\r\nIv\xE1n Ant\xF3n\r\n\r\n\n\r\n\n\nRa\xFAl
-    Moreta\r\n\r\n\r\n\r\n\n\r\n\n\r\n\n\n\n\nIv\xE1n Ant\xF3n\r\n\r\n\r\n\n\r\n\n\nIv\xE1n
-    Ant\xF3n\r\n\r\n\n\r\n\n\nIv\xE1n Ant\xF3n\r\n\r\n\n\r\n\n\nh8man\r\n\r\n\r\n\r\n\n\r\n\n\n\nCC0\r\nCC-BY
-    3.0\r\nCC-BY 4.0"
---- !u!222 &480583104
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480583101}
-  m_CullTransparentMesh: 0
 --- !u!1 &1603938178
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -258}
+  m_AnchoredPosition: {x: 0, y: -285}
   m_SizeDelta: {x: 670, y: 9157.611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603938180
@@ -524,28 +426,43 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "DARK\r\n\rLEGACY\n\r\n\n\n\n\n\n\n\n\n\n\n\nCreate by\r\n\r\n\n\r\n\r\nMotor
-    Grafico\r\n\n\r\n\r\nProductores Ejecutivos\r\n\r\n\n\r\n\r\nDirectores del Juego\r\n\r\n\r\n\r\n\r\nDirectores
-    de Producci\xF3n\r\n\r\n\n\r\n\r\nDirectores Tecnicos\r\n\r\n\n\r\n\r\n\r\n\r\n\r\nProgramaci\xF3n\r\n\r\nDirectores
-    Ejecutivos de Programaci\xF3n\r\n\r\n\n\r\n\r\nProductores de Programaci\xF3n\r\n\r\n\n\r\nProgramadores\r\n\r\n\r\n\r\n\r\nProgramadores
-    de Animaciones\r\n\r\n\n\r\n\r\nProgramadores de Fisicas\r\n\r\n\n\r\n\r\nProgramadores
-    de Interfaces\r\n\r\n\n\r\n\r\n\r\n\r\nArte\r\n\r\nDirector Ejecutivo de Arte\r\n\r\n\n\r\n\r\nProductor
-    Grafico\r\n\r\n\n\r\nDise\xF1adores Artisticos\r\n\r\n\n\n\r\nDinujantes Artisticos\r\n\r\n\n\n\n\n\r\n\n\r\n\r\n\n\r\n\n\n\r\n\n\r\n\r\nConcept
-    Art\r\n\r\n\n\n\n\n\n\r\n\n\r\n\n\n\r\n\n\n\n\n\n\r\n\r\nSonido\r\n\r\nDirector
-    Ejecutivo de Sonido y Musica\r\n\r\n\n\r\n\r\nCompositor de Efectos de Sonido\r\n\r\n\n\r\nEditor
-    de Efectos de Sonido\r\n\r\n\n\r\nCompositor de Banda Sonora\r\n\r\n\n\n\n\r\nEditor
-    de Banda Sonora\r\n\r\n\n\n\r\n\r\n\r\nAnimaci\xF3n\r\n\r\nDirector Ejecutivo
-    de Animaci\xF3n\r\n\r\n\n\r\n\r\nDise\xF1adores de Animaciones\r\n\r\n\n\r\nDibujantes
-    de Animaciones\r\n\r\n\n\r\nEditor de Animaciones\r\n\r\n\r\n\r\nConcept de Personajes\r\n\r\n\n\r\n\r\n\r\nPersonajes\r\n\r\nDirector
-    Ejecutivo dise\xF1o de Personajes\r\n\r\n\n\r\n\r\nProductor del Dise\xF1o de
-    Personajes\r\n\r\n\n\r\nDise\xF1ador de Personajes\r\n\r\n\n\r\nArtistas de Personajes\r\n\r\n\r\n\r\n\r\n\r\nHistoria\r\n\r\nDirector
-    Ejecutivo de la Historia y Ambientaci\xF3n\r\n\r\n\n\r\nEscritor de la Historia\r\n\r\n\n\r\nDise\xF1ador
-    de la Ambientaci\xF3n\r\n\r\n\n\r\nDise\xF1o de Niveles\r\n\r\n\n\r\n\r\n\r\nInteligencia
-    Artifical\r\n\r\nDirector Ejecutivo de la IA\r\n\r\n\n\r\n\r\nProgramador de la
-    Inteligencia Artificial\r\n\r\n\n\r\nProgramador del respawn de la IA\r\n\r\n\n\r\nColaboraci\xF3n
-    de codigo IA\r\n\r\n\n\r\n\r\n\r\nLincencias\r\n\r\n\n\n\n\n\n\n\nMuchas Gracias
-    \nPor Jugar"
+    m_LineSpacing: 0.93
+  m_Text: "DARK\r\nLEGACY\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nCreate
+    by\r\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\r\nMotor Grafico\r\n\nUnity\r\n\r\n\r\nProductores
+    Ejecutivos\r\n\r\nIv\xE1n Ant\xF3n y Ra\xFAl Moreta\r\n\r\n\r\nDirectores del
+    Juego\r\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\r\nDirectores de Producci\xF3n\r\n\r\nIv\xE1n
+    Ant\xF3n y Ra\xFAl Moreta\r\n\r\n\r\nDirectores Tecnicos\r\n\r\nRa\xFAl Moreta
+    y Iv\xE1n Ant\xF3n\r\n\r\n\r\n\r\n\r\n\n\rProgramaci\xF3n\r\n\r\nDirectores Ejecutivos
+    de Programaci\xF3n\r\n\r\nIv\xE1n Ant\xF3n y Ra\xFAl Moreta\r\n\r\n\r\nProductores
+    de Programaci\xF3n\r\n\r\nRa\xFAl Moreta y Iv\xE1n Ant\xF3n\r\n\r\nProgramadores\r\n\r\nRa\xFAl
+    Moreta y Iv\xE1n Ant\xF3n\r\n\r\n\r\nProgramadores de Animaciones\r\n\r\nRa\xFAl
+    Moreta\r\n\r\n\r\nProgramadores de Fisicas\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\n\r\nProgramadores
+    de Interfaces\r\n\r\nRa\xFAl Moreta\r\n\r\n\r\n\r\n\r\nArte\r\n\r\nDirector Ejecutivo
+    de Arte\r\n\r\nRa\xFAl Moreta\r\n\r\n\r\nProductor Grafico\r\n\r\nClint Bellanger\r\n\n\rDise\xF1adores
+    Artisticos\r\n\r\nClint Bellanger\r\nZonked\r\n\r\nDinujantes Artisticos\r\n\r\nClint
+    Bellanger\r\nBlarumyrran\r\nCrowline\r\nJustin Nichol\r\nLamoot\r\nHolly Daniel\r\nAlexandr
+    Zhelanov\r\nHaelDB\r\nMatt Merkulov\r\nTelaron\r\nRemaxim\r\nBrandon Morris\r\nJustin
+    Nichol\r\nJohndh\r\nStephen Challener\r\nMumu\r\nArtisticdude\r\nTiZiana\r\nScrittl\r\nZonked\r\n\r\nConcept
+    Art\r\n\r\nClint Bellanger\r\nBlarumyrran\r\nCrowline\r\nJustin Nichol\r\nLamoot\r\nHolly
+    Daniel\r\nAlexandr Zhelanov\r\nHaelDB\r\nMatt Merkulov\r\nTelaron\r\nRemaxim\r\nBrandon
+    Morris\r\nJustin Nichol\r\nJohndh\r\nStephen Challener\r\nMumu\r\nArtisticdude\r\nTiZiana\r\nScrittl\r\nZonked\r\n\r\n\r\n\r\nSonido\r\n\r\nDirector
+    Ejecutivo de Sonido y Musica\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\n\r\nCompositor de
+    Efectos de Sonido\r\n\r\nClint Bellanger\r\n\r\nEditor de Efectos de Sonido\r\n\r\nIv\xE1n
+    Ant\xF3n\r\n\r\nCompositor de Banda Sonora\r\n\r\nHaelDB\r\nBrandon Morris\r\nRemaxim\r\n\r\nEditor
+    de Banda Sonora\r\n\r\nBrandon Morris\r\nRemaxim\r\n\r\n\r\n\r\nAnimaci\xF3n\r\n\n\rDirector
+    Ejecutivo de Animaci\xF3n\r\n\r\nRa\xFAl Moreta\r\n\r\n\r\nDise\xF1adores de Animaciones\r\n\r\nSKYZ0R\r\n\r\nDibujantes
+    de Animaciones\r\n\r\nSKYZ0R\r\n\r\nEditor de Animaciones\r\n\r\nRa\xFAl Moreta\r\n\r\nConcept
+    de Personajes\r\n\r\nSKYZ0R\r\n\r\n\r\n\r\nPersonajes\r\n\r\nDirector Ejecutivo
+    dise\xF1o de Personajes\r\n\r\nRa\xFAl Moreta\r\n\r\n\r\nProductor del Dise\xF1o
+    de Personajes\r\n\r\nSKYZ0R\r\n\r\nDise\xF1ador de Personajes\r\n\r\nSKYZ0R\r\n\r\nArtistas
+    de Personajes\r\n\r\nSKYZ0R\r\n\r\n\r\n\r\nHistoria\r\n\r\nDirector Ejecutivo
+    de la Historia y Ambientaci\xF3n\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\nEscritor de la
+    Historia\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\nDise\xF1ador de la Ambientaci\xF3n\r\n\r\nIv\xE1n
+    Ant\xF3n\r\n\r\nDise\xF1o de Niveles\r\n\r\nRa\xFAl Moreta\r\n\r\n\r\n\r\nInteligencia
+    Artifical\r\n\r\nDirector Ejecutivo de la IA\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\n\r\nProgramador
+    de la Inteligencia Artificial\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\nProgramador del respawn
+    de la IA\r\n\r\nIv\xE1n Ant\xF3n\r\n\r\nColaboraci\xF3n de codigo IA\r\n\r\nh8man\r\n\r\n\r\n\r\nLincencias\r\n\r\nCC0\r\nCC-BY
+    3.0\r\nCC-BY 4.0"
 --- !u!222 &1603938181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -585,14 +502,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1603938179}
-  - {fileID: 480583102}
   m_Father: {fileID: 329913434}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035, y: -4367.4}
-  m_SizeDelta: {x: 800, y: 9326.333}
+  m_AnchoredPosition: {x: -0.000015259, y: -4433}
+  m_SizeDelta: {x: 800, y: 9626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046046321
 MonoBehaviour:
