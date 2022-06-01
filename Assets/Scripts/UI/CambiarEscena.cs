@@ -19,7 +19,10 @@ public class CambiarEscena : MonoBehaviour
     {
         
     }
-
+    public void esperarTiempo(AudioSource tiempo)
+    {
+        WaitForSeconds waitForSeconds = new WaitForSeconds(tiempo.time);
+    }
     public void cambioEscena(int numeroEscena)
     { 
         SceneManager.LoadScene(numeroEscena);
