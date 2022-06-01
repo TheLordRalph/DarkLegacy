@@ -16,10 +16,14 @@ public class MovimientoCreditos : MonoBehaviour
 
     void Update()
     {
-        
-        if (!(transform.position.y == 4350))
+
+        if (!(transform.position.y >= 4350))
         {
             transform.position = new Vector2(transform.position.x, transform.position.y + 2);
+        }
+        else 
+        {
+            SceneManager.LoadScene(0);
         }
 
         if (Input.GetAxisRaw("Cancel") == 1)
