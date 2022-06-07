@@ -10,12 +10,17 @@ public class ArcherController : MonoBehaviour
     public float weaponBonus;
     public float typeDamageBonus;
     public String creatureType;
+    public int vida;
+    private AudioSource groaning1;
+    private AudioSource groaning2;
+    private AudioSource groaning3;
     private UnityEngine.AI.NavMeshAgent navmesh;
     private Vector2 smoothDeltaPosition;
     private Animator anim;
     private Vector2 velocity;
     private Vector2 enemyOrientation;
     private Boolean aliveBoolean = true;
+
     private float innerBowTime;
     /*
      0 --> idle
@@ -30,6 +35,9 @@ public class ArcherController : MonoBehaviour
         navmesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = GetComponent<Animator>();
         innerBowTime = Time.deltaTime;
+        groaning1 = GetComponents<AudioSource>()[0];
+        groaning2 = GetComponents<AudioSource>()[1];
+        groaning3 = GetComponents<AudioSource>()[2];
     }
 
     // Start is called before the first frame update

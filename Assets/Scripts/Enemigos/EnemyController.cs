@@ -9,12 +9,14 @@ public class EnemyController : MonoBehaviour
     public float weaponBonus;
     public float typeDamageBonus;
     public String creatureType;
+    public int vida;
     private UnityEngine.AI.NavMeshAgent navmesh;
     private Vector2 smoothDeltaPosition;
     private Animator anim;
     private Vector2 velocity;
     private Vector2 enemyOrientation;
     private Boolean aliveBoolean = true;
+    private AudioSource[] groaning;
     /*
      0 --> idle
      1 --> walking
@@ -27,6 +29,7 @@ public class EnemyController : MonoBehaviour
 		navmesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = GetComponent<Animator>();
         navmesh.SetDestination(player.transform.position);
+        groaning = GetComponents<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -117,5 +120,19 @@ navmesh.updatePosition = false;
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+    void receiveDamage(int damage)
+    {
+        vida -= damage;
+        if (vida <= 0)
+        {
+            die();
+        }
+    }
+
+    private void die()
+    {
+        System.Random a = new System.Random(groaning.Length);
+        print(a);
     }
 }
