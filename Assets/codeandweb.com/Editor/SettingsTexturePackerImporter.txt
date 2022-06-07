@@ -48,30 +48,32 @@ tpsheetFileNames:
 - Assets/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.tpsheet
 - Assets/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.tpsheet
 - Assets/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho01.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho04.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho08_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho09_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_0.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho8_1.tpsheet
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho9_1.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho01.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho02.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho03.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho04.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho05.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho06.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho07.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho08.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho09.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho10.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho11.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho12.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho13.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho14.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho02.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho03.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho05.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho06.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho07.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho10.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho11.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho12.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho13.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho14.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho8.tpsheet
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho9.tpsheet
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna01.tpsheet
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna02.tpsheet
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna03.tpsheet
@@ -103,6 +105,7 @@ tpsheetFileNames:
 - Assets/Sprites/Equipamiento/Botas/Bota13.tpsheet
 - Assets/Sprites/Equipamiento/Botas/Bota14.tpsheet
 - Assets/Sprites/Equipamiento/Botas/Bota15.tpsheet
+- Assets/Sprites/Equipamiento/Botas/Bota16.tpsheet
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza01.tpsheet
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza02.tpsheet
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza03.tpsheet
@@ -137,6 +140,7 @@ tpsheetFileNames:
 - Assets/Sprites/Equipamiento/Guantes/Guante12.tpsheet
 - Assets/Sprites/Equipamiento/Guantes/Guante13.tpsheet
 - Assets/Sprites/Equipamiento/Guantes/Guante14.tpsheet
+- Assets/Sprites/Equipamiento/Guantes/Guante15.tpsheet
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera01.tpsheet
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera02.tpsheet
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera03.tpsheet
@@ -184,6 +188,7 @@ tpsheetFileNames:
 - Assets/Sprites/Equipamiento/Pecho/Pecho30.tpsheet
 - Assets/Sprites/Equipamiento/Pecho/Pecho31.tpsheet
 - Assets/Sprites/Equipamiento/Pecho/Pecho32.tpsheet
+- Assets/Sprites/Equipamiento/Pecho/Pecho33.tpsheet
 - Assets/Sprites/Equipamiento/Piernas/Pierna01.tpsheet
 - Assets/Sprites/Equipamiento/Piernas/Pierna02.tpsheet
 - Assets/Sprites/Equipamiento/Piernas/Pierna03.tpsheet
@@ -200,8 +205,9 @@ tpsheetFileNames:
 - Assets/Sprites/Equipamiento/Piernas/Pierna14.tpsheet
 - Assets/Sprites/Equipamiento/Piernas/Pierna15.tpsheet
 - Assets/Sprites/Equipamiento/Piernas/Pierna16.tpsheet
+- Assets/Sprites/Equipamiento/Piernas/Pierna17.tpsheet
+- Assets/Sprites/Hair/HairAhoul.tpsheet
 - Assets/Sprites/Hair/HairElf.tpsheet
-- Assets/Sprites/Hair/HairEnano.tpsheet
 - Assets/Sprites/Hair/HairHumano.tpsheet
 - Assets/Sprites/Hair/HairSharman.tpsheet
 - Assets/Sprites/Weapons/Arcos/Arco01.tpsheet
@@ -329,30 +335,32 @@ textureFileNames:
 - Assets/Sprites/Body/SkeletonWarrior7/SkeletonWarrior7.png
 - Assets/Sprites/Body/SkeletonWarrior8/SkeletonWarrior8.png
 - Assets/Sprites/Body/SkeletonWarrior9/SkeletonWarrior9.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho01.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho02_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho03_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho04.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho05_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho06_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho07_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho08_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho09_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho10_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho11_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho12_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_0.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho13_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho8_1.png
-- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho9_1.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho01.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho02.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho03.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho04.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho05.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho06.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho07.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho08.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho09.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho10.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho11.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho12.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho13.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho14.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho02.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho03.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho05.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho06.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho07.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho10.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho11.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho12.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho13.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho14.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho8.png
+- Assets/Sprites/Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho9.png
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna01.png
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna02.png
 - Assets/Sprites/Equipamiento/AccesorioPiernas/AccesorioPierna03.png
@@ -384,6 +392,7 @@ textureFileNames:
 - Assets/Sprites/Equipamiento/Botas/Bota13.png
 - Assets/Sprites/Equipamiento/Botas/Bota14.png
 - Assets/Sprites/Equipamiento/Botas/Bota15.png
+- Assets/Sprites/Equipamiento/Botas/Bota16.png
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza01.png
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza02.png
 - Assets/Sprites/Equipamiento/Cabeza/Cabeza03.png
@@ -418,6 +427,7 @@ textureFileNames:
 - Assets/Sprites/Equipamiento/Guantes/Guante12.png
 - Assets/Sprites/Equipamiento/Guantes/Guante13.png
 - Assets/Sprites/Equipamiento/Guantes/Guante14.png
+- Assets/Sprites/Equipamiento/Guantes/Guante15.png
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera01.png
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera02.png
 - Assets/Sprites/Equipamiento/Hombreras/Hombrera03.png
@@ -465,6 +475,7 @@ textureFileNames:
 - Assets/Sprites/Equipamiento/Pecho/Pecho30.png
 - Assets/Sprites/Equipamiento/Pecho/Pecho31.png
 - Assets/Sprites/Equipamiento/Pecho/Pecho32.png
+- Assets/Sprites/Equipamiento/Pecho/Pecho33.png
 - Assets/Sprites/Equipamiento/Piernas/Pierna01.png
 - Assets/Sprites/Equipamiento/Piernas/Pierna02.png
 - Assets/Sprites/Equipamiento/Piernas/Pierna03.png
@@ -481,8 +492,9 @@ textureFileNames:
 - Assets/Sprites/Equipamiento/Piernas/Pierna14.png
 - Assets/Sprites/Equipamiento/Piernas/Pierna15.png
 - Assets/Sprites/Equipamiento/Piernas/Pierna16.png
+- Assets/Sprites/Equipamiento/Piernas/Pierna17.png
+- Assets/Sprites/Hair/HairAhoul.png
 - Assets/Sprites/Hair/HairElf.png
-- Assets/Sprites/Hair/HairEnano.png
 - Assets/Sprites/Hair/HairHumano.png
 - Assets/Sprites/Hair/HairSharman.png
 - Assets/Sprites/Weapons/Arcos/Arco01.png
@@ -563,6 +575,12 @@ textureFileNames:
 - Assets/Sprites/Weapons/Misticas/Mistica09.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

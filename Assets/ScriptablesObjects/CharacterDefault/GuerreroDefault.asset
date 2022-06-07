@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc089f8bbb2fd940919d917ca381d46, type: 3}
+  m_Name: GuerreroDefault
+  m_EditorClassIdentifier: 
+  body: Body/Human/Human
+  hair: Hair/HairHumano
+  cabeza: Equipamiento/Cabeza/Cabeza07
+  pecho: Equipamiento/Pecho/Pecho10
+  hombreras: Equipamiento/Hombreras/Hombrera04
+  guantes: Equipamiento/Guantes/Guante04
+  piernas: Equipamiento/Piernas/Pierna03
+  botas: Equipamiento/Botas/Bota05
+  accesorioPiernas: Null
+  accesorioPecho1: Null
+  accesorioPecho2: Null
+  arma: Weapons/ArmasPesadas/ArmaPesada01
+  escudo: Weapons/Escudos/Escudo02

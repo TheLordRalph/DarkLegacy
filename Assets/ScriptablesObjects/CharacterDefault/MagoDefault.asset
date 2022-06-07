@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc089f8bbb2fd940919d917ca381d46, type: 3}
+  m_Name: MagoDefault
+  m_EditorClassIdentifier: 
+  body: Body/Sharman/Sharman
+  hair: Hair/HairSharman
+  cabeza: Null
+  pecho: Equipamiento/Pecho/Pecho08
+  hombreras: Equipamiento/Hombreras/Hombrera11
+  guantes: Equipamiento/Guantes/Guante02
+  piernas: Equipamiento/Piernas/Pierna01
+  botas: Equipamiento/Botas/Bota03
+  accesorioPiernas: Equipamiento/AccesorioPiernas/AccesorioPierna03
+  accesorioPecho1: Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho03
+  accesorioPecho2: Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho03
+  arma: Weapons/Misticas/Mistica02
+  escudo: Null
