@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
 public class AnimacionesPlayer : MonoBehaviour
-{ 
-    
+{
+
+    private Object[] sprites = null;
+
     private string pathSprites = "Assets/Sprites/";
-    private string pathAnimClip = "Assets/Animaciones/AnimationsClips";
+    private string pathAnimClip = "Assets/Animaciones/AnimationsClips/";
 
     string[] nombreAnimaciones = { "Idle", "Attack", "Bow", "Cast", "Walk", "Run", "Death" };
 
@@ -22,12 +25,169 @@ public class AnimacionesPlayer : MonoBehaviour
     private static int posBody = 0;
 
     [SerializeField] private Player player;
-    [SerializeField] private GameObject parent;
 
     
     void Start()
     {
-        CambiarAnimacion(parent, "Hair/HairHumano");
+
+        switch (this.name)
+        {
+            case "Body":
+                if (!player.characterDefault.body.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.body, player.Body);
+                }
+                else 
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Pelo":
+                if (!player.characterDefault.hair.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.hair, player.Pelo);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Cabeza":
+                if (!player.characterDefault.cabeza.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.cabeza, player.Cabeza);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Pecho":
+                if (!player.characterDefault.pecho.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.pecho, player.Pecho);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Hombreras":
+                if (!player.characterDefault.hombreras.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.hombreras, player.Hombreras);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Guantes":
+                if (!player.characterDefault.guantes.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.guantes, player.Guantes);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Piernas":
+                if (!player.characterDefault.piernas.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.piernas, player.Piernas);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Botas":
+                if (!player.characterDefault.botas.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.botas, player.Botas);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "AccesorioPiernas":
+                if (!player.characterDefault.accesorioPiernas.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.accesorioPiernas, player.AccesorioPiernas);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "AccesorioPecho1":
+                if (!player.characterDefault.accesorioPecho1.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.accesorioPecho1, player.AccesorioPecho1);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "AccesorioPecho2":
+                if (!player.characterDefault.accesorioPecho2.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.accesorioPecho2, player.AccesorioPecho2);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Arma":
+                if (!player.characterDefault.arma.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.arma, player.Arma);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+
+            case "Escudo":
+                if (!player.characterDefault.escudo.Equals("Null"))
+                {
+                    this.gameObject.SetActive(true);
+                    CambiarAnimacion(player.characterDefault.escudo, player.Escudo);
+                }
+                else
+                {
+                    this.gameObject.SetActive(false);
+                }
+                break;
+        }
 
     }
 
@@ -37,7 +197,7 @@ public class AnimacionesPlayer : MonoBehaviour
         
     }
     
-    private void CambiarAnimacion(GameObject personaje, string rutaSprites)
+    private void CambiarAnimacion(string rutaSprites, AnimationClip[] animaciones)
     {
         Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(pathSprites + rutaSprites + ".png");
         
@@ -53,8 +213,8 @@ public class AnimacionesPlayer : MonoBehaviour
             spriteBinding.propertyName = "m_Sprite";
 
 
-            AnimationClip[] animationClips = (AnimationClip[])AssetDatabase.LoadAllAssetsAtPath(pathAnimClip + personaje.name + this.name);
 
+            AnimationClip[] animationClips = animaciones;
 
 
             foreach (AnimationClip a in animationClips)
@@ -151,7 +311,7 @@ public class AnimacionesPlayer : MonoBehaviour
 
     private void CrearAnimacion()
     {
-        Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(pathSprites + player.characterDefault.body + ".png"); ;
+        Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(pathSprites + player.characterDefault.body + ".png");
         // Con el Switch obtenemos los asset de la parte que queremos
         switch (this.name)
         {
