@@ -6,7 +6,7 @@ public class Movimiento : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    private Animator anim;
+    
     public float velocidad;
     private Vector2 movePosition;
     private float horizontal;
@@ -15,13 +15,11 @@ public class Movimiento : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         Move();
-        Animacion();
     }
 
     private void Move()
@@ -39,69 +37,5 @@ public class Movimiento : MonoBehaviour
         rb.velocity = new Vector2(horizontal, vertical) * velocidad * Time.fixedDeltaTime;
     }
 
-    private void Animacion()
-    { 
-        anim.SetFloat("mouseX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-        anim.SetFloat("mouseY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-
-        anim.SetFloat("x", movePosition.x);
-        anim.SetFloat("y", movePosition.y);
-
-
-        if (horizontal != 0 || vertical != 0)
-        {
-            anim.SetInteger("velocidad", 1);
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                anim.SetBool("run", true);
-            }
-            else 
-            {
-                anim.SetBool("run", false);
-            }
-        }
-        else 
-        {
-            anim.SetInteger("velocidad", 0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("attack", true);
-        }
-        else 
-        {
-            anim.SetBool("attack", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("bow", true);
-        }
-        else
-        {
-            anim.SetBool("bow", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("cast", true);
-        }
-        else
-        {
-            anim.SetBool("cast", false);
-        }
-
-
-        if (Input.GetKey(KeyCode.J)) 
-        {
-            anim.SetBool("death", true);
-        }
-    }
+    
 }

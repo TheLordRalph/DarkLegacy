@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using UnityEngine;
 using UnityEditor;
-using UnityEngine;
 
 public class AnimacionesPlayer : MonoBehaviour
 {
@@ -308,7 +305,7 @@ public class AnimacionesPlayer : MonoBehaviour
             }
         }
     }
-
+/*
     private void CrearAnimacion()
     {
         Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(pathSprites + player.characterDefault.body + ".png");
@@ -493,4 +490,5 @@ public class AnimacionesPlayer : MonoBehaviour
             }
         }
     }
+*/
 }
