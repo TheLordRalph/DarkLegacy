@@ -5,6 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharacterDefault", menuName = "ScriptableObjects/CharacterDefault", order = 2)]
 public class CharacterDefault : ScriptableObject
 {
+    [SerializeField] public string tipoAtaque;
+    [SerializeField] public int vida;
+    [SerializeField] public int velocidad;
+    [SerializeField] public int bonusVelocidadAtaque;
+    [SerializeField] public int fuerza;
+
+
     public string body;
     public string hair;
     public string cabeza;
@@ -18,6 +25,20 @@ public class CharacterDefault : ScriptableObject
     public string accesorioPecho2;
     public string arma;
     public string escudo;
+
+    [SerializeField] public AnimationClip[] Body;
+    [SerializeField] public AnimationClip[] Pelo;
+    [SerializeField] public AnimationClip[] Cabeza;
+    [SerializeField] public AnimationClip[] Pecho;
+    [SerializeField] public AnimationClip[] Hombreras;
+    [SerializeField] public AnimationClip[] Guantes;
+    [SerializeField] public AnimationClip[] Piernas;
+    [SerializeField] public AnimationClip[] Botas;
+    [SerializeField] public AnimationClip[] AccesorioPiernas;
+    [SerializeField] public AnimationClip[] AccesorioPecho1;
+    [SerializeField] public AnimationClip[] AccesorioPecho2;
+    [SerializeField] public AnimationClip[] Arma;
+    [SerializeField] public AnimationClip[] Escudo;
 
     public void setBody(string body) { this.body = body; }
     public void setHair(string hair) { this.hair = hair; }

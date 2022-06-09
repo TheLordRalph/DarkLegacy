@@ -10,21 +10,11 @@ public class ControladorAnimaciones : MonoBehaviour
     private float horizontal;
     private float vertical;
 
-<<<<<<< HEAD
-    // Start is called before the first frame update
-=======
-
->>>>>>> Raul
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-<<<<<<< HEAD
-    // Update is called once per frame
-=======
-    
->>>>>>> Raul
     void Update()
     {
         Animacion();
@@ -33,14 +23,11 @@ public class ControladorAnimaciones : MonoBehaviour
     private void Animacion()
     {
 
-<<<<<<< HEAD
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
         movePosition = new Vector2(horizontal, vertical);
 
-=======
->>>>>>> Raul
         anim.SetFloat("mouseX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
         anim.SetFloat("mouseY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
 
@@ -104,8 +91,4 @@ public class ControladorAnimaciones : MonoBehaviour
             anim.SetBool("death", true);
         }
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> Raul
 }

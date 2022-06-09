@@ -6,13 +6,10 @@ public class Movimiento : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-<<<<<<< HEAD
+    [SerializeField] Animator animatorBody;
     
-=======
-    private Animator anim;
+    [SerializeField] Player player;
 
->>>>>>> Raul
-    public float velocidad;
     private Vector2 movePosition;
     private float horizontal;
     private float vertical;
@@ -24,6 +21,7 @@ public class Movimiento : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(animatorBody.GetCurrentAnimatorStateInfo(1));
         Move();
     }
 
@@ -39,77 +37,14 @@ public class Movimiento : MonoBehaviour
         }
 
         movePosition = new Vector2(horizontal, vertical);
-        rb.velocity = new Vector2(horizontal, vertical) * velocidad * Time.fixedDeltaTime;
-    }
-
-<<<<<<< HEAD
-    
-=======
-    private void Animacion()
-    {
-
-        anim.SetFloat("mouseX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-        anim.SetFloat("mouseY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-
-        anim.SetFloat("x", movePosition.x);
-        anim.SetFloat("y", movePosition.y);
-
-
-        if (horizontal != 0 || vertical != 0)
+        
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            anim.SetInteger("velocidad", 1);
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                anim.SetBool("run", true);
-            }
-            else
-            {
-                anim.SetBool("run", false);
-            }
+            rb.velocity = new Vector2(horizontal, vertical) * (player.characterDefault.velocidad + 10) * Time.fixedDeltaTime;
         }
-        else
-        {
-            anim.SetInteger("velocidad", 0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("attack", true);
-        }
-        else
-        {
-            anim.SetBool("attack", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("bow", true);
-        }
-        else
-        {
-            anim.SetBool("bow", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("cast", true);
-        }
-        else
-        {
-            anim.SetBool("cast", false);
-        }
-
-
-        if (Input.GetKey(KeyCode.J))
-        {
-            anim.SetBool("death", true);
+        else 
+        { 
+            rb.velocity = new Vector2(horizontal, vertical) * player.characterDefault.velocidad * Time.fixedDeltaTime;
         }
     }
->>>>>>> Raul
 }
