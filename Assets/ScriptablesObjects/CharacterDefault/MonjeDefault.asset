@@ -17,7 +17,7 @@ MonoBehaviour:
   velocidad: 20
   bonusVelocidadAtaque: 15
   fuerza: 30
-  body: Body/Ahoul/Ahoul
+  body: Body/AhoulTan/AhoulTan
   hair: Hair/HairAhoul
   cabeza: Equipamiento/Cabeza/Cabeza05
   pecho: Equipamiento/Pecho/Pecho33
@@ -28,7 +28,7 @@ MonoBehaviour:
   accesorioPiernas: Null
   accesorioPecho1: Equipamiento/AccesorioPecho/AccesorioPecho1/AccesorioPecho14
   accesorioPecho2: Equipamiento/AccesorioPecho/AccesorioPecho2/AccesorioPecho14
-  arma: Weapons/ArmasLigeras/ArmaLiguera11
+  arma: Weapons/ArmasLigeras/ArmaLigera11
   escudo: Null
   Body:
   - {fileID: 7400000, guid: bcece7aafa11a6646b5c1ecd5f8e8fe9, type: 2}
@@ -771,3 +771,20 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 390d5715392ed0540b752cb6ce3ae847, type: 2}
   - {fileID: 7400000, guid: 23cfd8abbe3917c4a8d6a063393a1bac, type: 2}
   - {fileID: 7400000, guid: c943baf62e464b843a768b98ad55066f, type: 2}
+  body_controler: {fileID: 22100000, guid: 9c0421dcff19bce459b4ffb4a1f18190, type: 2}
+  pelo_controler: {fileID: 22100000, guid: eed3f57d22483cd4091aee24b9e3298e, type: 2}
+  cabeza_controler: {fileID: 22100000, guid: f02986a4dc2c6bf47867e47095127fa4, type: 2}
+  pecho_controler: {fileID: 22100000, guid: cd734474db83e7a478a8f6b5ec4cba22, type: 2}
+  hombreras_controler: {fileID: 22100000, guid: f6545e767a84d774db935bcc5c1bd484,
+    type: 2}
+  guantes_controler: {fileID: 22100000, guid: 15f1cec122223e542b166a1c74ebbc05, type: 2}
+  piernas_controler: {fileID: 22100000, guid: 835c4fa1ad659d1469e495b26e1d2647, type: 2}
+  botas_controler: {fileID: 22100000, guid: 48c69d52302ffe44ca459418f405117d, type: 2}
+  accesorioPiernas_controler: {fileID: 22100000, guid: bf92b80785aeb2c41903686f8752c419,
+    type: 2}
+  accesorioPecho1_controler: {fileID: 22100000, guid: c1ad083db52e61d4d966b3d69b7cefee,
+    type: 2}
+  accesorioPecho2_controler: {fileID: 22100000, guid: bc2d5652c696ae94d8289a8a2f59322d,
+    type: 2}
+  arma_controler: {fileID: 22100000, guid: 08e91b1428061c1408451f4d180c17d1, type: 2}
+  escudo_controler: {fileID: 22100000, guid: 9b911c00cb581064fb0e876fa809c7fc, type: 2}

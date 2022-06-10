@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
+using Assets.Scripts.Monobehaviours;
 
 public class AnimacionesPlayer : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class AnimacionesPlayer : MonoBehaviour
 
     private static int posBody = 0;
     [SerializeField] private Player player;
+    [SerializeField] private AnimatorOverride animatorOverride;
 
 
     private void Start()
@@ -31,7 +33,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.body.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.body, player.characterDefault.Body);
+                    animatorOverride.SetAnimations(player.characterDefault.body_controler);
+                    //CambiarAnimacion(player.characterDefault.body, player.characterDefault.Body);
                 }
                 else
                 {
@@ -42,7 +45,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.hair.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.hair, player.characterDefault.Pelo);
+                    animatorOverride.SetAnimations(player.characterDefault.pelo_controler);
+                    //CambiarAnimacion(player.characterDefault.hair, player.characterDefault.Pelo);
                 }
                 else
                 {
@@ -54,7 +58,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.cabeza.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.cabeza, player.characterDefault.Cabeza);
+                    animatorOverride.SetAnimations(player.characterDefault.cabeza_controler);
+                    //CambiarAnimacion(player.characterDefault.cabeza, player.characterDefault.Cabeza);
                 }
                 else
                 {
@@ -65,7 +70,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.pecho.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.pecho, player.characterDefault.Pecho);
+                    animatorOverride.SetAnimations(player.characterDefault.pecho_controler);
+                    //CambiarAnimacion(player.characterDefault.pecho, player.characterDefault.Pecho);
                 }
                 else
                 {
@@ -76,7 +82,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.hombreras.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.hombreras, player.characterDefault.Hombreras);
+                    animatorOverride.SetAnimations(player.characterDefault.hombreras_controler);
+                    //CambiarAnimacion(player.characterDefault.hombreras, player.characterDefault.Hombreras);
                 }
                 else
                 {
@@ -87,7 +94,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.guantes.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.guantes, player.characterDefault.Guantes);
+                    animatorOverride.SetAnimations(player.characterDefault.guantes_controler);
+                    //CambiarAnimacion(player.characterDefault.guantes, player.characterDefault.Guantes);
                 }
                 else
                 {
@@ -98,7 +106,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.piernas.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.piernas, player.characterDefault.Piernas);
+                    animatorOverride.SetAnimations(player.characterDefault.piernas_controler);
+                    //CambiarAnimacion(player.characterDefault.piernas, player.characterDefault.Piernas);
                 }
                 else
                 {
@@ -109,7 +118,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.botas.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.botas, player.characterDefault.Botas);
+                    animatorOverride.SetAnimations(player.characterDefault.botas_controler);
+                    //CambiarAnimacion(player.characterDefault.botas, player.characterDefault.Botas);
                 }
                 else
                 {
@@ -120,7 +130,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.accesorioPiernas.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.accesorioPiernas, player.characterDefault.AccesorioPiernas);
+                    animatorOverride.SetAnimations(player.characterDefault.accesorioPiernas_controler);
+                    //CambiarAnimacion(player.characterDefault.accesorioPiernas, player.characterDefault.AccesorioPiernas);
                 }
                 else
                 {
@@ -131,7 +142,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.accesorioPecho1.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.accesorioPecho1, player.characterDefault.AccesorioPecho1);
+                    animatorOverride.SetAnimations(player.characterDefault.accesorioPecho1_controler);
+                    //CambiarAnimacion(player.characterDefault.accesorioPecho1, player.characterDefault.AccesorioPecho1);
                 }
                 else
                 {
@@ -142,7 +154,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.accesorioPecho2.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.accesorioPecho2, player.characterDefault.AccesorioPecho2);
+                    animatorOverride.SetAnimations(player.characterDefault.accesorioPecho2_controler);
+                    //CambiarAnimacion(player.characterDefault.accesorioPecho2, player.characterDefault.AccesorioPecho2);
                 }
                 else
                 {
@@ -153,7 +166,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.arma.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.arma, player.characterDefault.Arma);
+                    animatorOverride.SetAnimations(player.characterDefault.arma_controler);
+                    //CambiarAnimacion(player.characterDefault.arma, player.characterDefault.Arma);
                 }
                 else
                 {
@@ -164,7 +178,8 @@ public class AnimacionesPlayer : MonoBehaviour
                 if (!player.characterDefault.escudo.Equals("Null"))
                 {
                     this.gameObject.SetActive(true);
-                    CambiarAnimacion(player.characterDefault.escudo, player.characterDefault.Escudo);
+                    animatorOverride.SetAnimations(player.characterDefault.escudo_controler);
+                    //CambiarAnimacion(player.characterDefault.escudo, player.characterDefault.Escudo);
                 }
                 else
                 {

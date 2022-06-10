@@ -771,3 +771,20 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 8b6201c28477338499b5a1a65ad68c6b, type: 2}
   - {fileID: 7400000, guid: 32d29a87ee0716045ab98f7d3e965089, type: 2}
   - {fileID: 7400000, guid: 1bac7f99ce32db1409f8c44cab0e3c1e, type: 2}
+  body_controler: {fileID: 22100000, guid: f9776382b1a419748b2eef952dc23552, type: 2}
+  pelo_controler: {fileID: 22100000, guid: ca97788525d19154f8072ff2ba9d1ef3, type: 2}
+  cabeza_controler: {fileID: 22100000, guid: 4b51dc0e66c679343894709f0627598e, type: 2}
+  pecho_controler: {fileID: 22100000, guid: 57a85486150338747b12c657ebd3cdb5, type: 2}
+  hombreras_controler: {fileID: 22100000, guid: e98033ae2d4b8b540898b3ea8c07b6a9,
+    type: 2}
+  guantes_controler: {fileID: 22100000, guid: f107da27b339b464c96eec921e3360b4, type: 2}
+  piernas_controler: {fileID: 22100000, guid: 13830caec4d609b45bea0db02e5f91b6, type: 2}
+  botas_controler: {fileID: 22100000, guid: 4fd2177e4cf0d064db817456cb2d5354, type: 2}
+  accesorioPiernas_controler: {fileID: 22100000, guid: 0fa2127e40c6d994ca882928f18f8ca2,
+    type: 2}
+  accesorioPecho1_controler: {fileID: 22100000, guid: 8bd32d61c0cb2044e959dcbfe2a3b1ae,
+    type: 2}
+  accesorioPecho2_controler: {fileID: 22100000, guid: d21d84cda1a81af4ab277468ccfc0de7,
+    type: 2}
+  arma_controler: {fileID: 22100000, guid: 7e8f392718e13af4fbc38525af3dda58, type: 2}
+  escudo_controler: {fileID: 22100000, guid: 330f78564afbb694bba6e2dab2e22f34, type: 2}

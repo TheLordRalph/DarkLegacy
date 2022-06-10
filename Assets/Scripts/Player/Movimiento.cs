@@ -10,6 +10,8 @@ public class Movimiento : MonoBehaviour
     
     [SerializeField] Player player;
 
+    PlayerControl playerControl;
+
     private Vector2 movePosition;
     private float horizontal;
     private float vertical;
@@ -17,12 +19,19 @@ public class Movimiento : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerControl = GetComponent<PlayerControl>();
     }
 
     void Update()
     {
-        Debug.Log(animatorBody.GetCurrentAnimatorStateInfo(1));
-        Move();
+        if (playerControl.getVida() > 0)
+        {
+            Move();
+        }
+        else 
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
 
     private void Move()

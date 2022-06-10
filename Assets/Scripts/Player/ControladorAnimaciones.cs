@@ -10,6 +10,9 @@ public class ControladorAnimaciones : MonoBehaviour
     private float horizontal;
     private float vertical;
 
+    [SerializeField] private PlayerControl playerControl;
+    private bool animacionDeathActivada = false;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -17,7 +20,16 @@ public class ControladorAnimaciones : MonoBehaviour
 
     void Update()
     {
-        Animacion();
+        
+        if (playerControl.getVida() > 0)
+        {
+            Animacion();
+        }
+        else if (!animacionDeathActivada)
+        {
+            anim.SetBool("death", true);
+            animacionDeathActivada = true;
+        }
     }
 
     private void Animacion()
@@ -52,7 +64,7 @@ public class ControladorAnimaciones : MonoBehaviour
             anim.SetInteger("velocidad", 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
             anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);

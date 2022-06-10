@@ -40,6 +40,21 @@ public class CharacterDefault : ScriptableObject
     [SerializeField] public AnimationClip[] Arma;
     [SerializeField] public AnimationClip[] Escudo;
 
+
+    [SerializeField] public AnimatorOverrideController body_controler;
+    [SerializeField] public AnimatorOverrideController pelo_controler;
+    [SerializeField] public AnimatorOverrideController cabeza_controler;
+    [SerializeField] public AnimatorOverrideController pecho_controler;
+    [SerializeField] public AnimatorOverrideController hombreras_controler;
+    [SerializeField] public AnimatorOverrideController guantes_controler;
+    [SerializeField] public AnimatorOverrideController piernas_controler;
+    [SerializeField] public AnimatorOverrideController botas_controler;
+    [SerializeField] public AnimatorOverrideController accesorioPiernas_controler;
+    [SerializeField] public AnimatorOverrideController accesorioPecho1_controler;
+    [SerializeField] public AnimatorOverrideController accesorioPecho2_controler;
+    [SerializeField] public AnimatorOverrideController arma_controler;
+    [SerializeField] public AnimatorOverrideController escudo_controler;
+
     public void setBody(string body) { this.body = body; }
     public void setHair(string hair) { this.hair = hair; }
     public void setCabeza(string cabeza) { this.cabeza = cabeza; }
