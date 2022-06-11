@@ -5,7 +5,7 @@ using UnityEngine;
 public class ArrowController : MonoBehaviour
 {
     public Vector3 target;
-    public GameObject player;
+    private GameObject player;
     public Vector2 direction;
     private BoxCollider2D dimensions;
     
@@ -13,6 +13,7 @@ public class ArrowController : MonoBehaviour
     void Start()
     {
         dimensions = GetComponent<BoxCollider2D>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public float weaponBonus;
     public float typeDamageBonus;
     public String creatureType;
@@ -17,16 +17,18 @@ public class EnemyController : MonoBehaviour
     private Vector2 enemyOrientation;
     private Boolean aliveBoolean = true;
     private AudioSource[] groaning;
+    private Boolean soundPlaying = false;
     /*
      0 --> idle
      1 --> walking
      */
     private int movementType;
-    private float lookRadius = 10f;
+    private float lookRadius = 4f;
 
     private void Awake(){
         
 		navmesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
         navmesh.SetDestination(player.transform.position);
         groaning = GetComponents<AudioSource>();
@@ -46,16 +48,19 @@ navmesh.updatePosition = false;
         if (aliveBoolean)
         {
             float distance = Vector2.Distance(player.transform.position, navmesh.transform.position);
+           /* Debug.Log("distance: " + distance);
+            print(distance < lookRadius);*/
             if (distance < lookRadius)
             {
+                die();
                 CalculateEnemyOrientation();
 
 
 
                 // Update animation parameters
-                anim.SetFloat("Velocidad", movementType);
+               /* anim.SetFloat("Velocidad", movementType);
                 anim.SetFloat("Horizontal", enemyOrientation.x);
-                anim.SetFloat("Vertical", enemyOrientation.y);
+                anim.SetFloat("Vertical", enemyOrientation.y);*/
 
                 navmesh.SetDestination(player.transform.position);
                 
@@ -119,7 +124,7 @@ navmesh.updatePosition = false;
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, navmesh.stoppingDistance);
+        Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
     void receiveDamage(int damage)
     {
@@ -132,7 +137,13 @@ navmesh.updatePosition = false;
 
     private void die()
     {
-        System.Random a = new System.Random(groaning.Length);
-        print(a);
+        int a = UnityEngine.Random.Range(0, groaning.Length);
+        for (int i = 0; i < groaning.Length; i++)
+        {
+            if (groaning[i].isPlaying)
+            {
+                soundPlaying = true;
+            }
+        }
     }
 }

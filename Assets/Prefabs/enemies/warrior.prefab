@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 345c68d5be2a3ec4c98d7cb355c3799f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1015805453135488161, guid: 126b9231a8759f443aaf3eeb8f74c27f, type: 3}
   weaponBonus: 0
   typeDamageBonus: 0
   creatureType: 
