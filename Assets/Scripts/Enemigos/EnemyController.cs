@@ -119,7 +119,7 @@ navmesh.updatePosition = false;
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lookRadius);
+        Gizmos.DrawWireSphere(transform.position, navmesh.stoppingDistance);
     }
     void receiveDamage(int damage)
     {

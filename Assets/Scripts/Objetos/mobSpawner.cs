@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class mobSpawner : MonoBehaviour
 {
-    public GameObject archer;
+    public GameObject mage;
     public GameObject warrior;
     public String spawnerType;
     private float innerSpawnerTime;
-    private float spawnTime;
+    public float spawnTime;
 
     // Start is called before the first frame update
     void Start()
@@ -27,16 +27,16 @@ public class mobSpawner : MonoBehaviour
             {
                 createWarrior();
             }
-            else if (spawnerType == "archer")
+            else if (spawnerType == "mage")
             {
-                createArcher();
+                createmage();
             }
         }
     }
 
-    private void createArcher()
+    private void createmage()
     {
-        GameObject newArcher = Instantiate(archer, transform);
+        GameObject newmage = Instantiate(mage, transform);
     }private void createWarrior()
     {
         GameObject newWarrior = Instantiate(warrior, transform);
