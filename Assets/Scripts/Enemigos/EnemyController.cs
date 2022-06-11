@@ -138,12 +138,6 @@ navmesh.updatePosition = false;
     private void die()
     {
         int a = UnityEngine.Random.Range(0, groaning.Length);
-        for (int i = 0; i < groaning.Length; i++)
-        {
-            if (groaning[i].isPlaying)
-            {
-                soundPlaying = true;
-            }
-        }
+        groaning[a].Play();
     }
 }
