@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class ArcherController : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject arrow;
+    private GameObject player;
+    public GameObject spell;
     public float weaponBonus;
     public float typeDamageBonus;
     public String creatureType;
     public int vida;
+    public int dannoArma;
     private AudioSource groaning1;
     private AudioSource groaning2;
     private AudioSource groaning3;
@@ -27,7 +28,7 @@ public class ArcherController : MonoBehaviour
      1 --> walking
      */
     private float movementType;
-    public float lookRadius;
+    public float lookRadius = 10f;
 
     private void Awake()
     {
@@ -35,9 +36,7 @@ public class ArcherController : MonoBehaviour
         navmesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = GetComponent<Animator>();
         innerBowTime = Time.deltaTime;
-        groaning1 = GetComponents<AudioSource>()[0];
-        groaning2 = GetComponents<AudioSource>()[1];
-        groaning3 = GetComponents<AudioSource>()[2];
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Start is called before the first frame update
@@ -57,7 +56,6 @@ public class ArcherController : MonoBehaviour
             navmesh.SetDestination(player.transform.position);
             innerBowTime += Time.deltaTime;
             float distance = Vector2.Distance(player.transform.position, navmesh.transform.position);
-            
             if (distance < lookRadius)
             {
                 CalculateEnemyOrientation();
@@ -65,9 +63,9 @@ public class ArcherController : MonoBehaviour
 
 
                 // Update animation parameters
-                anim.SetFloat("Velocidad", movementType);
+               /* anim.SetFloat("Velocidad", movementType);
                 anim.SetFloat("Horizontal", enemyOrientation.x);
-                anim.SetFloat("Vertical", enemyOrientation.y);
+                anim.SetFloat("Vertical", enemyOrientation.y);*/
 
                 navmesh.SetDestination(player.transform.position);
                 
@@ -88,10 +86,11 @@ public class ArcherController : MonoBehaviour
 
     private void shootAtPlayer()
     {
-        if ((innerBowTime - Time.deltaTime) > 2f)
+        if ((innerBowTime - Time.deltaTime) > 5f)
         {
-            GameObject newArrow = Instantiate(arrow, navmesh.transform.position, navmesh.transform.rotation);
+            GameObject newArrow = Instantiate(spell, navmesh.transform.position, navmesh.transform.rotation);
             newArrow.GetComponent<ArrowController>().target = player.transform.position;
+            newArrow.GetComponent<ArrowController>().damage = dannoArma;
             newArrow.GetComponent<ArrowController>().direction = navmesh.transform.position - player.transform.position;
             newArrow.GetComponent<ArrowController>().player = player;
             innerBowTime = 0;

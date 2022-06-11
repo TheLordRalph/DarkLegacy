@@ -5,21 +5,22 @@ using UnityEngine;
 public class ArrowController : MonoBehaviour
 {
     public Vector3 target;
-    private GameObject player;
+    public GameObject player;
     public Vector2 direction;
     private BoxCollider2D dimensions;
-    
+    private float velocity = 0.1f;
+    public float damage;
+
     // Start is called before the first frame update
     void Start()
     {
         dimensions = GetComponent<BoxCollider2D>();
-        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, target, 0.01f);
+        transform.position = Vector2.MoveTowards(transform.position, target, velocity);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         
@@ -29,16 +30,27 @@ public class ArrowController : MonoBehaviour
         }
         checkCollision();
     }
+
+
     private void checkCollision()
     {
-        Vector2 topArrow = new Vector2(transform.position.x, transform.position.y);
+        /*Vector2 topArrow = new Vector2(transform.position.x, transform.position.y);
         float playerXEndArea = player.transform.position.x + player.GetComponent<BoxCollider2D>().size.x / 2;
         float playerXfirstArea = player.transform.position.x - player.GetComponent<BoxCollider2D>().size.x / 2;
         float playeryEndArea = player.transform.position.y + player.GetComponent<BoxCollider2D>().size.y / 2;
         float playeryfirstArea = player.transform.position.y - player.GetComponent<BoxCollider2D>().size.y / 2;
         if (topArrow.x <= playerXEndArea && topArrow.x >= playerXfirstArea && topArrow.y <= playeryEndArea && topArrow.y >= playeryfirstArea)
         {
-            Destroy(player);
+            
+        }*/
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(other.tag);
+        if (other.tag == "Player")
+        {
+            player.GetComponent<PlayerControl>().restarVida(damage);
         }
+        
     }
 }
