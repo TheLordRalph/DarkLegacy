@@ -51,7 +51,6 @@ public class ArrowController : MonoBehaviour
         {
             player.GetComponent<PlayerControl>().restarVida(damage);
         }
-        Destroy(gameObject);
-
+        
     }
 }
