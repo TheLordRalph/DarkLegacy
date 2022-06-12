@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
 		navmesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
-        navmesh.SetDestination(player.transform.position);
+        //navmesh.SetDestination(player.transform.position);
         groaning = GetComponents<AudioSource>();
     }
 

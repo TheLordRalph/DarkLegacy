@@ -119,7 +119,7 @@ public class PlayerControl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            rb.velocity = new Vector2(horizontal, vertical) * (player.characterDefault.velocidad + 10) * Time.fixedDeltaTime;
+            rb.velocity = new Vector2(horizontal, vertical) * (player.characterDefault.velocidad + 15) * Time.fixedDeltaTime;
         }
         else
         {

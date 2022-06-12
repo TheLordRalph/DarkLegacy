@@ -39,6 +39,6 @@ public class mobSpawner : MonoBehaviour
         GameObject newmage = Instantiate(mage, transform);
     }private void createWarrior()
     {
-        GameObject newWarrior = Instantiate(warrior, transform);
+        GameObject newWarrior = Instantiate(warrior, transform.position, transform.rotation);
     }
 }
