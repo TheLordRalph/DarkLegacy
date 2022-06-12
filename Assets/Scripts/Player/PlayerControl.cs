@@ -21,7 +21,6 @@ public class PlayerControl : MonoBehaviour
     private float vida;
     private bool isAttack = false;
 
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -59,6 +58,7 @@ public class PlayerControl : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             atack();
+            //habilidad();
         }
 
 
@@ -112,10 +112,26 @@ public class PlayerControl : MonoBehaviour
             isAttack = true;
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        print(other.gameObject);
+        if (other.gameObject.name == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyController>().receiveDamage(player.characterDefault.fuerza);
+        }
+        else if (other.GetComponent<ArcherController>())
+        {
+            other.GetComponent<ArcherController>().receiveDamage(player.characterDefault.fuerza);
+        }
+    }
 
     private void habilidad() 
     {
-        
+        print(Input.mousePosition);
+        GameObject newArrow = Instantiate(cast, transform.position, transform.rotation);
+        newArrow.GetComponent<ArrowController>().target = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        newArrow.GetComponent<ArrowController>().damage = player.characterDefault.fuerza;
+        newArrow.GetComponent<ArrowController>().direction = transform.position - Camera.main.ScreenToViewportPoint(Input.mousePosition);
     }
 
     private void desactivateAttack() 
@@ -154,7 +170,7 @@ public class PlayerControl : MonoBehaviour
     public void restarVida(float daño) 
     {
         this.vida -= daño;
-        Debug.Log(this.vida);
+        print(this.vida);
     }
 
     public float getVida() 
