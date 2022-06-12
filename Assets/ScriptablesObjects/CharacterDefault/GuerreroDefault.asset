@@ -17,6 +17,7 @@ MonoBehaviour:
   velocidad: 18
   bonusVelocidadAtaque: 0
   fuerza: 40
+  portarit: {fileID: 21300000, guid: 6491da3496793424498d933ad82903b3, type: 3}
   body: Body/Human/Human
   hair: Hair/HairHumano
   cabeza: Equipamiento/Cabeza/Cabeza07

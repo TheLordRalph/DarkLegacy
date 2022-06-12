@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] SpriteRenderer body;
     [SerializeField] Player player;
     [SerializeField] GameObject[] atacks;
+    [SerializeField] GameObject gameOver_UI;
 
 
     private Vector2 movePosition;
@@ -32,10 +33,16 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+        if (getVida() <= 0) 
+        {
+            rb.velocity = Vector2.zero;
+            gameOver();
+        }
+
         if (getVida() > 0 && !body.sprite.name.StartsWith("2_Attack") && !body.sprite.name.StartsWith("3_Bow") && !body.sprite.name.StartsWith("4_Cast"))
         {
-            if (isAttack) 
-            { 
+            if (isAttack)
+            {
                 desactivateAttack();
                 isAttack = false;
             }
@@ -50,6 +57,10 @@ public class PlayerControl : MonoBehaviour
 
     }
 
+    private void gameOver() 
+    {
+        gameOver_UI.SetActive(true);
+    }
 
     private void atack() 
     {

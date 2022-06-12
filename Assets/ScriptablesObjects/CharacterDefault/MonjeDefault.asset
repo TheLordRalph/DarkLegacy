@@ -17,6 +17,7 @@ MonoBehaviour:
   velocidad: 20
   bonusVelocidadAtaque: 15
   fuerza: 30
+  portarit: {fileID: 21300000, guid: 3c345b86198a7234982e769547c02fb3, type: 3}
   body: Body/AhoulTan/AhoulTan
   hair: Hair/HairAhoul
   cabeza: Equipamiento/Cabeza/Cabeza05

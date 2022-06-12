@@ -11,6 +11,7 @@ public class CharacterDefault : ScriptableObject
     [SerializeField] public int bonusVelocidadAtaque;
     [SerializeField] public int fuerza;
 
+    [SerializeField] public Sprite portarit;
 
     public string body;
     public string hair;

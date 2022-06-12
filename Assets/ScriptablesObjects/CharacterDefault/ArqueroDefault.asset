@@ -17,6 +17,7 @@ MonoBehaviour:
   velocidad: 20
   bonusVelocidadAtaque: 0
   fuerza: 20
+  portarit: {fileID: 21300012, guid: c5c7c28daa881b746a30fe4f195491ad, type: 3}
   body: Body/Elf/Elf
   hair: Hair/HairElf
   cabeza: Null

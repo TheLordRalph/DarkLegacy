@@ -17,6 +17,7 @@ MonoBehaviour:
   velocidad: 18
   bonusVelocidadAtaque: 0
   fuerza: 60
+  portarit: {fileID: 21300020, guid: e5e6a62dd6002134eac3b6b663a5ecfd, type: 3}
   body: Body/Sharman/Sharman
   hair: Hair/HairSharman
   cabeza: Null
