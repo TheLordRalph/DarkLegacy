@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using System.Collections.Generic;
-using Assets.Scripts.Monobehaviours;
 
 public class AnimacionesPlayer : MonoBehaviour
 {
@@ -20,14 +18,15 @@ public class AnimacionesPlayer : MonoBehaviour
     int[] death = { 261, 262, 264, 265, 270, 273, 276, 280 };
 
     private static int posBody = 0;
-    [SerializeField] private Player player;
-    [SerializeField] private AnimatorOverride animatorOverride;
+
+    //[SerializeField] private Player player;
+    [SerializeField] private AnimationClip[] anim;
 
 
     private void Start()
     {
 
-        switch (this.name)
+        /*switch (this.name)
         {
             case "Body":
                 if (!player.characterDefault.body.Equals("Null"))
@@ -186,7 +185,7 @@ public class AnimacionesPlayer : MonoBehaviour
                     this.gameObject.SetActive(false);
                 }
                 break;
-        }
+        }*/
     }
 
 
@@ -216,7 +215,7 @@ public class AnimacionesPlayer : MonoBehaviour
                 {
                     case "Attack":
                         numeroSpriteDeLaAnimacion = (int)Animaciones_BD.Attack_Sprites;
-                        segundoDeLaAnimacion = ((int)Animaciones_BD.Attack_Segundos - player.characterDefault.bonusVelocidadAtaque) / 100f;
+                        segundoDeLaAnimacion = ((int)Animaciones_BD.Attack_Segundos /*- player.characterDefault.bonusVelocidadAtaque*/) / 100f;
                         spriteSelecionado = attack;
                         numeroTipoAnimacion = 2;
                         break;

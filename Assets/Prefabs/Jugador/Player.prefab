@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &8864293851715219997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &249308747879017610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &1681417659164965980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,6 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &2906075472265662009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,6 +683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &8229752878542724006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,6 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &5009568923969091778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -961,6 +967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &3365631633076686026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,6 +1109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &1754573716056655136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1243,6 +1251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &4764129543044273874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,6 +1393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &2301207158635253551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1525,6 +1535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &4443826849951646761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1666,6 +1677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &316910425612769660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,6 +1819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerControl: {fileID: 8249212551300461002}
+  player: {fileID: 11400000, guid: 5380004720bc9604d8b46bf1f6d19bcd, type: 2}
 --- !u!114 &6456239641227879337
 MonoBehaviour:
   m_ObjectHideFlags: 0

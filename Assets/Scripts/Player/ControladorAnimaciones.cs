@@ -11,6 +11,7 @@ public class ControladorAnimaciones : MonoBehaviour
     private float vertical;
 
     [SerializeField] private PlayerControl playerControl;
+    [SerializeField] private Player player;
     private bool animacionDeathActivada = false;
 
     void Start()
@@ -68,39 +69,25 @@ public class ControladorAnimaciones : MonoBehaviour
         {
             anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
             anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("attack", true);
+            if (player.characterDefault.tipoAtaque.Equals("Attack"))
+            {
+                anim.SetBool("attack", true);
+            }
+            else if (player.characterDefault.tipoAtaque.Equals("Bow")) 
+            {
+                anim.SetBool("bow", true);
+            }
+            else if (player.characterDefault.tipoAtaque.Equals("Cast"))
+            {
+                anim.SetBool("cast", true);
+            }
+            
         }
         else
         {
             anim.SetBool("attack", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("bow", true);
-        }
-        else
-        {
             anim.SetBool("bow", false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            anim.SetFloat("clickX", Camera.main.ScreenToViewportPoint(Input.mousePosition).x);
-            anim.SetFloat("clickY", Camera.main.ScreenToViewportPoint(Input.mousePosition).y);
-            anim.SetBool("cast", true);
-        }
-        else
-        {
             anim.SetBool("cast", false);
-        }
-
-
-        if (Input.GetKey(KeyCode.J))
-        {
-            anim.SetBool("death", true);
         }
     }
 }
