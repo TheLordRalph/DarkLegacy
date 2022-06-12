@@ -8,7 +8,9 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] SpriteRenderer body;
     [SerializeField] Player player;
     [SerializeField] GameObject[] atacks;
+    [SerializeField] GameObject weapon;
     [SerializeField] GameObject gameOver_UI;
+    [SerializeField] GameObject cast;
 
 
     private Vector2 movePosition;
@@ -28,6 +30,11 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         vida = player.characterDefault.vida;
+
+        if (player.characterDefault.tipoAtaque != "Attack") 
+        {
+            weapon.SetActive(false);
+        }
     }
 
 
@@ -104,6 +111,11 @@ public class PlayerControl : MonoBehaviour
             atacks[7].SetActive(true);
             isAttack = true;
         }
+    }
+
+    private void habilidad() 
+    {
+        
     }
 
     private void desactivateAttack() 

@@ -1954,6 +1954,9 @@ MonoBehaviour:
   - {fileID: 4162549857950255203}
   - {fileID: 5053266305934535382}
   - {fileID: 3713424961550158794}
+  weapon: {fileID: 9112868143219503167}
+  gameOver_UI: {fileID: 0}
+  cast: {fileID: 8086054191150338824, guid: a5ef1439ccb1c994a985f8af6b1c6947, type: 3}
 --- !u!1 &2924991116837529929
 GameObject:
   m_ObjectHideFlags: 0
