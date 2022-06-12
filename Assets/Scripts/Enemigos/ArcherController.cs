@@ -29,7 +29,6 @@ public class ArcherController : MonoBehaviour
      */
     private float movementType;
     public float lookRadius = 10f;
-    public float shootingTime;
 
     private void Awake()
     {
@@ -64,12 +63,12 @@ public class ArcherController : MonoBehaviour
 
 
                 // Update animation parameters
-                /* anim.SetFloat("Velocidad", movementType);
-                 anim.SetFloat("Horizontal", enemyOrientation.x);
-                 anim.SetFloat("Vertical", enemyOrientation.y);*/
-                print(player.transform.position);
-                navmesh.SetDestination(player.transform.position);
+               /* anim.SetFloat("Velocidad", movementType);
+                anim.SetFloat("Horizontal", enemyOrientation.x);
+                anim.SetFloat("Vertical", enemyOrientation.y);*/
 
+                navmesh.SetDestination(player.transform.position);
+                
                 if (distance <= navmesh.stoppingDistance)
                 {
                     if (creatureType.ToLower().Equals("goblin"))
@@ -87,7 +86,7 @@ public class ArcherController : MonoBehaviour
 
     private void shootAtPlayer()
     {
-        if ((innerBowTime - Time.deltaTime) > shootingTime)
+        if ((innerBowTime - Time.deltaTime) > 5f)
         {
             GameObject newArrow = Instantiate(spell, navmesh.transform.position, navmesh.transform.rotation);
             newArrow.GetComponent<ArrowController>().target = player.transform.position;
@@ -139,8 +138,7 @@ public class ArcherController : MonoBehaviour
     void OnAnimatorMove()
     {
         // Update position to agent position
-        //transform.position = navmesh.nextPosition;
-        
+        transform.position = navmesh.nextPosition;
     }
     void OnDrawGizmosSelected()
     {
