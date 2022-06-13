@@ -64,9 +64,11 @@ public class EnemyController : MonoBehaviour
 
 
                 // Update animation parameters
-                /* anim.SetFloat("Velocidad", movementType);
-                 anim.SetFloat("Horizontal", enemyOrientation.x);
-                 anim.SetFloat("Vertical", enemyOrientation.y);*/
+                 anim.SetInteger("velocidad", movementType);
+                 anim.SetFloat("mouseX", enemyOrientation.x);
+                 anim.SetFloat("mouseY", enemyOrientation.y);
+                anim.SetFloat("x", enemyOrientation.x);
+                anim.SetFloat("y", enemyOrientation.y);
 
                 navmesh.SetDestination(player.transform.position);
 
@@ -76,11 +78,19 @@ public class EnemyController : MonoBehaviour
                     {
                         if ((innerAttackTime - Time.deltaTime) > 5f)
                         {
-                            float damage = UnityEngine.Random.Range(10, 30);
+                            anim.SetBool("attack", true);
+
+                            anim.SetFloat("clickX", enemyOrientation.x);
+                            anim.SetFloat("clickY", enemyOrientation.y);
+                            float damage = UnityEngine.Random.Range(3, 8);
                             damage += damage * (1 + weaponBonus) * (1 + typeDamageBonus);
                             player.GetComponent<PlayerControl>().restarVida(damage);
                             //print("'El jugador ha recibido " + damage + " daño'");
                             innerAttackTime = 0;
+                        }
+                        else
+                        {
+                            anim.SetBool("attack", false);
                         }
                     }
                 }
@@ -121,6 +131,8 @@ public class EnemyController : MonoBehaviour
             enemyOrientation.y = 1;
             movementType = 1;
         }
+        float distance = Vector2.Distance(player.transform.position, navmesh.transform.position);
+        if (distance <= navmesh.stoppingDistance) movementType = 0;
     }
 
 

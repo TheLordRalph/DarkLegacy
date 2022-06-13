@@ -114,24 +114,23 @@ public class PlayerControl : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print(other.gameObject);
+        print("PJ: " + other.gameObject);
         if (other.gameObject.name == "Enemy")
         {
             other.gameObject.GetComponent<EnemyController>().receiveDamage(player.characterDefault.fuerza);
         }
-        else if (other.GetComponent<ArcherController>())
+        else if (other.gameObject.name == "Archer")
         {
-            other.GetComponent<ArcherController>().receiveDamage(player.characterDefault.fuerza);
+            other.gameObject.GetComponent<ArcherController>().receiveDamage(player.characterDefault.fuerza);
         }
     }
 
     private void habilidad() 
     {
         print(Input.mousePosition);
+        print(Camera.main.ScreenToViewportPoint(Input.mousePosition));
         GameObject newArrow = Instantiate(cast, transform.position, transform.rotation);
-        newArrow.GetComponent<ArrowController>().target = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        newArrow.GetComponent<ArrowController>().damage = player.characterDefault.fuerza;
-        newArrow.GetComponent<ArrowController>().direction = transform.position - Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        newArrow.GetComponent<IceBall>().Target = Camera.main.ScreenToViewportPoint(Input.mousePosition);
     }
 
     private void desactivateAttack() 

@@ -161,6 +161,7 @@ public class ArcherController : MonoBehaviour
                 soundPlaying = true;
             }
         }
+        Destroy(gameObject);
     }
     void OnDrawGizmosSelected()
     {

@@ -8,7 +8,7 @@ public class mobSpawner : MonoBehaviour
     public GameObject mage;
     public GameObject warrior;
     public String spawnerType;
-    private float innerSpawnerTime;
+    private float innerSpawnerTime = 0;
     public float spawnTime;
 
     // Start is called before the first frame update
@@ -31,6 +31,7 @@ public class mobSpawner : MonoBehaviour
             {
                 createmage();
             }
+            innerSpawnerTime = 0;
         }
     }
 
@@ -40,5 +41,6 @@ public class mobSpawner : MonoBehaviour
     }private void createWarrior()
     {
         GameObject newWarrior = Instantiate(warrior, transform.position, transform.rotation);
+        newWarrior.GetComponent<EnemyController>().vida = 100;
     }
 }
