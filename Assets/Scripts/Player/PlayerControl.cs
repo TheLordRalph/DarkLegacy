@@ -115,7 +115,7 @@ public class PlayerControl : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         print("PJ: " + other.gameObject);
-        if (other.gameObject.name == "Enemy")
+        if (other.gameObject.name.Contains("Enemy"))
         {
             other.gameObject.GetComponent<EnemyController>().receiveDamage(player.characterDefault.fuerza);
         }

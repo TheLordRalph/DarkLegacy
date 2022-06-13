@@ -52,7 +52,6 @@ public class EnemyController : MonoBehaviour
     {
         if (aliveBoolean)
         {
-
             innerAttackTime += Time.deltaTime;
             float distance = Vector2.Distance(player.transform.position, navmesh.transform.position);
             /* Debug.Log("distance: " + distance);
@@ -149,6 +148,8 @@ public class EnemyController : MonoBehaviour
     public void receiveDamage(int damage)
     {
         vida -= damage;
+
+        print("vida: " + vida);
         if (vida <= 0)
         {
             die();
