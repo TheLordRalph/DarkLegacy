@@ -9,3 +9,12 @@ dispersos por el mapa.
 
 <h3><a href="https://github.com/ReinoDeLeon">ReinoDeLeon</a></h3>
 <h3><a href="https://github.com/TheLordRalph">TheLordRalph</a></h3>
+
+
+# Copyright and License
+
+Dark Legacy is released under GPL version 3 or later.
+
+All of Dark Legacy art and data files are released under CC-BY-SA 3.0.
+
+All art is from <a href="https://github.com/flareteam/flare-game">Flare Game</a>
